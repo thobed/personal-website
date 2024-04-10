@@ -4,6 +4,8 @@ on:
   pull_request:
     branches: [master]
 
+permissions: write-all
+
 jobs:
   prettier:
     runs-on: ubuntu-latest
