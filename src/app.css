@@ -6,26 +6,59 @@
 
 .homepageImage {
     float: right;
-    margin-top: 2.5%;
+    margin-top: 1%;
+    margin-left: 5%;
+    width: 15%;
+    height: 15%;
+    border-radius: 50%;
 }
 
 .info_header {
     color: white;
     border-radius: 25px;
     border: 3px solid white;
-    margin: 10px;
+    margin: 5px;
     display: flex;
     width: 100%
 }
 
 .info_header_element {
-    margin: 25px;
+    margin: 20px;
 }
 
-h1 {
-    color: white;
-    font-family: monospace;
+.mainbody {
+    display: flex;
 }
+
+.whoami {
+    margin-left: 17%;
+    margin-top: 3%;
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.myname {
+    margin-bottom: -3%;
+}
+
+.mystatement {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: -1%;
+    font-size: large;
+}
+
+.tabcontent {
+    width: 70%;
+    align-items: center;
+    margin-left: 17%;
+    margin-top: -1%;
+    font-size: large;
+}
+
 
 body {
     margin: 0 !important;
@@ -33,12 +66,6 @@ body {
 
 html {
     background-color: #111111;
-}
-
-img {
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
 }
 
 p {
@@ -50,12 +77,12 @@ p {
     display: flex;
     background-color: #242526;
     color: white;
-    height: 50px;
+    height: 70px;
 }
 
 .navbar ul {
     margin: 0;
-    margin-top: 15px;
+    margin-top: 20px;
     display: flex;
     list-style: none;
 }
@@ -65,19 +92,22 @@ p {
     font-size: x-large;
 }
 
-.navbar h1 {
-    margin: 0;
-    font-size: 2em;
-    font-weight: bold;
-    margin-top: 15px;
-    margin-left: 15px;
+.github {
+    background-color: white;
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+    margin-top: -20%;
 }
 
-.navbar a {
-    text-decoration: none;
-    color: white;
+.linkedin {
+    height: 100%;
+    width: 100%;
+    margin-top: -15%;
 }
 
-.navbar a:hover {
-    color: #008080;
+.facebook {
+    height: 100%;
+    width: 100%;
+    margin-top: -20%
 }
